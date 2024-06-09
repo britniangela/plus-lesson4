@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>GitHub Repository</title>
+  </head>
+  <body>
+    <div class="weather-container">
+      <header>
+        <form id="search-form" action="">
+          <input
+            type="text"
+            placeholder="Enter a city.."
+            required
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-input-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Paris</h1>
+            <p class="current-details">
+              <span id="current-date"></span>, sunny
+              <br />
+              Humidity: <strong>58%</strong>, Wind: <strong>7 mph</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span>
+            <span
+              class="current-temperature-value"
+              id="current-temperature-value"
+              >90</span
+            >
+            <span class="current-temperature-unit">°F</span>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.shecodes.io/graduates/126512-britni-b"
+            target="_blank"
+            >Britni B.</a
+          >
+          on <a href="#">GitHub</a> and is hosted by <a href="#">Netlify</a>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
